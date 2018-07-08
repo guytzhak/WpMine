@@ -2,7 +2,10 @@
  * Vars
  */
 
- //$text-color: #000;
+$blue: #8492ff;
+$light_text: #fff;
+$grey: #ccc;
+
 
 /**
  * Includes
@@ -10,3 +13,7 @@
 
 @import 'css/components/mixin';
 @import 'css/components/main';
+
+@import 'css/components/typo';
+
+@import 'css/components/posts';

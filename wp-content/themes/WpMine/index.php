@@ -5,7 +5,7 @@
 <?php the_post_thumbnail('full'); ?>
 
 
-<div id="page_content" role="main">
+
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -14,7 +14,6 @@
             </div>
         </div>
     </div>
-</div>
 
 <?php endwhile; else : ?>
     <p><?php _e( 'Sorry, no pages matched your criteria.', 'cs' ); ?></p>

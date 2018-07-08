@@ -10,9 +10,10 @@ Text Domain: cs
 
 /** Main **/
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900|Secular+One&subset=hebrew');
 
 body, html {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: normal;
     color: #000;
     font-size: 16px;
@@ -24,6 +25,9 @@ body, html {
     }
 }
 
+body {
+    padding-top: 100px;
+}
 
 ::selection {
     background: #b3d4fc;
