@@ -57,4 +57,9 @@ function auto_add_alt_to_image_from_image_title($arr1, $arr2) {
     }
     return $arr1;
 }
+
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>

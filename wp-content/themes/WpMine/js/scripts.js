@@ -8,6 +8,9 @@ jQuery(document).ready(function($) {
             slidesToShow: 6,
             slidesToScroll: 1,
             rtl: true,
+            prevArrow: '<i class="fas fa-chevron-right prev"></i>',
+            nextArrow: '<i class="fas fa-chevron-left next"></i>',
+
             responsive: [
                 {
                     breakpoint: 1600,

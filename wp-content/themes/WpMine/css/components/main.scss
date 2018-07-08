@@ -15,11 +15,11 @@ Text Domain: cs
 body, html {
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
-    color: #000;
+    color: $text_color;
     font-size: 16px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    background-color: #fff;
+    background-color: #f4f4f4;
     &.rtl {
         text-align: right;
     }
@@ -27,6 +27,10 @@ body, html {
 
 body {
     padding-top: 100px;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
 }
 
 ::selection {
@@ -63,4 +67,26 @@ img {
     text-decoration: none;
     -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
     box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+}
+
+
+.slick-arrow {
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    font-size: 21px;
+    &.prev {
+        right: 3px;
+        left: auto;
+    }
+    &.next {
+        left: 3px;
+        right: auto;
+    }
+    
 }

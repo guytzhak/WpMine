@@ -52,6 +52,7 @@ Class CodeSpire_FrameWork {
         ) );
 
         add_image_size( 'home_slider', '300', '300', true);
+        add_image_size( 'home_list', '300', '300', true);
     }
 
     /** Call to JS & CSS **/
@@ -60,6 +61,7 @@ Class CodeSpire_FrameWork {
         wp_enqueue_style( 'bootstrap-css', get_stylesheet_directory_uri() .'/css/bootstrap.min.css' );
         wp_enqueue_style( 'slick-css', get_stylesheet_directory_uri() .'/css/slick.css' );
         wp_enqueue_style( 'slick-theme-css', get_stylesheet_directory_uri() .'/css/slick-theme.css' );
+        wp_enqueue_style( 'font-awesome-css', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
         wp_enqueue_style( 'main-css', get_stylesheet_uri() );
 
 

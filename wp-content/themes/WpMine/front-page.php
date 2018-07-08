@@ -27,9 +27,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-xl-9 col-lg-8">
-				<h1><?php the_title(); ?></h1>
-				<?php the_content(); ?>
-				<?php // TODO Posts Loop ?>
+				<?php
+				$args = [
+					'post_type' => 'post',
+					'posts_per_page' => 10,
+				];
+				$home_posts = new WP_Query( $args );
+				if( $home_posts->have_posts() ):
+					while( $home_posts->have_posts() ):
+						$home_posts->the_post();
+						get_template_part( 'template-parts/post', 'list');
+					endwhile;
+				endif;
+				?>
 			</div>
 			<div class="col-xs-12 col-xl-3 col-lg-4">
 				SideBar...
