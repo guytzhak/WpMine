@@ -1,0 +1,2 @@
+# WpMine
+Wordpress magazine theme
