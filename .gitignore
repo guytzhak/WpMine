@@ -1,3 +1,4 @@
 /wp-content/themes/WpMine/node_modules
 *.json
-*.DS_Store
+.DS_Store
+*/.DS_Store
