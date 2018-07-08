@@ -1,4 +1,4 @@
-# CodeSpire-Wp-Starter-Theme
+# WpMine-Magazine-Theme
 
 Wordpress Magazine Theme by WpMine Team
 
