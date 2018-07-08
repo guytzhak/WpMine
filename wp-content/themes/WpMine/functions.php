@@ -78,12 +78,6 @@ Class CodeSpire_FrameWork {
     
     public function helper(){
 
-        include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-        // check for plugin using plugin name
-        if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
-            include_once('inc/woo_func.php');
-        }
-
         // Includes
         require 'inc/wp_bootstrap_navwalker.php';
         include_once('inc/core_func.php');

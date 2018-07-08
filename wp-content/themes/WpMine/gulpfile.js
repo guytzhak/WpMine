@@ -16,27 +16,6 @@ function swallowError (error) {
     this.emit('end')
 }
 
-gulp.task('bt4concatScripts', function () {
-    return gulp.src([
-        'js/bootstrap4/alert.js',
-        'js/bootstrap4/button.js',
-        'js/bootstrap4/carousel.js',
-        'js/bootstrap4/collapse.js',
-        'js/bootstrap4/dropdown.js',
-        'js/bootstrap4/index.js',
-        'js/bootstrap4/modal.js',
-        'js/bootstrap4/popover.js',
-        'js/bootstrap4/scrollspy.js',
-        'js/bootstrap4/tab.js',
-        'js/bootstrap4/tooltip.js',
-        'js/bootstrap4/util.js',
-    ])
-        .pipe(maps.init())
-        .pipe(concat('app.js'))
-        .on('error', swallowError)
-        .pipe(maps.write('./maps'))
-        .pipe(gulp.dest('js'));
-});
 
 gulp.task('minifyScripts', function (cb) {
     return gulp.src('js/scripts.js')
@@ -62,12 +41,12 @@ gulp.task('compileSass', function (cb) {
 
 gulp.task('watchFiles', function () {
     gulp.watch(['css/components/*.scss', '*.scss'], ['compileSass']).on('change', browserSync.reload);;
-    gulp.watch(['js/app*.js*', 'js/bootstrap.js', 'js/scripts.js'], ['minifyScripts']).on('change', browserSync.reload);;
+    gulp.watch(['js/bootstrap.js', 'js/scripts.js'], ['minifyScripts']).on('change', browserSync.reload);;
 });
 
 gulp.task('sync', function() {
     var options = {
-        proxy: 'tomer.test',
+        proxy: 'wpmine.test',
         port: 3000,
         files: [
             '**/*.php',
@@ -88,14 +67,6 @@ gulp.task('sync', function() {
     browserSync(options);
 });
 
-gulp.task('clean', function() {
-    del(['style.css*', 'js/app*.js*']);
-});
-
 gulp.task("build", ['minifyScripts', 'compileSass']);
 
-gulp.task('serve', ['watchFiles', 'sync']);
-
-gulp.task("default", ["clean"], function() {
-    gulp.start('build');
-});
+gulp.task('default', ['watchFiles', 'sync']);

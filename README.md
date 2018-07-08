@@ -9,6 +9,8 @@ Wordpress Magazine Theme by WpMine Team
 
 Upload theme file to your Wordpress Themes directory and activate via admin panel.
 
+To Compile SCSS + JS please go to theme folder and than run 'gulp' to start listen to SCSS/JS Changes.
+
 ## What the theme include?
 
 1) Bla Bla...
