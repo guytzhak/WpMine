@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="315fbd31-b9dd-4df8-8e5c-091054efbdf5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/css/components/_posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/css/components/_posts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/css/components/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/css/components/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/inc/core_func.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/inc/core_func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/js/maps/scripts.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/js/maps/scripts.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/WpMine/template-parts/post-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/WpMine/template-parts/post-list.php" afterDir="false" />
-    </list>
+    <list default="true" id="315fbd31-b9dd-4df8-8e5c-091054efbdf5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,12 +273,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531082444825</updated>
-      <workItem from="1531082446350" duration="6918000" />
+      <workItem from="1531082446350" duration="7581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6918000" />
+    <option name="totallyTimeSpent" value="7581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
