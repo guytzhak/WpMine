@@ -1,0 +1,156 @@
+$color-blue: #0e3643;
+
+
+header {
+  padding: 20px 0 0;
+  background: #fbfbfb;
+  #top-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e2e2;
+    #logo {
+      a {
+        img {
+
+        }
+      }
+    }
+    #search {
+      form {
+        &.search-form {
+          label {
+            margin: 0;
+            input[type=search] {
+              -webkit-appearance: textfield;
+              -webkit-box-sizing: content-box;
+              font-family: inherit;
+              font-size: 100%;
+              background: #ededed url(/wp-content/themes/WpMine/images/search-icon.png) no-repeat 9px center;
+              border: solid 1px #ccc;
+              padding: 9px 10px 9px 32px;
+              width: 50%;
+              -webkit-border-radius: 10em;
+              -moz-border-radius: 10em;
+              border-radius: 10em;
+              -webkit-transition: all .5s;
+              -moz-transition: all .5s;
+              transition: all .5s;
+              &:focus {
+                width: 90%;
+                background-color: #fff;
+                border-color: #66CC75;
+                -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+                -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+                box-shadow: 0 0 5px rgba(109,207,246,.5);
+              }
+            }
+          }
+          input {
+            outline: none;
+          }
+          [type=submit] {
+            display: none;
+          }
+        }
+      }
+    }
+    #top-menu {
+      nav {
+        &.navbar {
+          .navbar-collapse {
+            ul {
+              padding: 0;
+              li {
+                padding: 0 10px;
+                a {
+                  font-size: 1.2rem;
+                  color: $color-blue;
+                  &:hover {
+                    color: #000;
+                  }
+                }
+                &:hover {
+                  border-bottom: 2px solid #8492ff;
+                  transition:  border-color 0s ease-out 0.5s, // Wait for ::before to finish before showing border
+                  width 0.25s ease-out 0.5s, // And then exanding width
+                  height 0.25s ease-out 0.75s; // And finally height
+                }
+                &.active {
+                  border-bottom: 2px solid #8492ff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #social {
+      padding: 0;
+      ul {
+        list-style: none;
+        display: block;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        li {
+          display: inline-block;
+          padding: 0 10px;
+          a {
+            color: $color-blue;
+            i {
+
+            }
+          }
+        }
+      }
+    }
+  }
+  #main-header {
+    padding: 5px 0;
+    #main-menu {
+      nav {
+        &.navbar {
+          .navbar-collapse {
+            ul {
+              padding: 0;
+              li {
+                padding: 0 20px;
+                a {
+                  font-size: 1rem;
+                  color: $color-blue;
+                  &:hover {
+                    color: #000;
+                  }
+                }
+                &:hover {
+                  border-bottom: 2px solid #8492ff;
+                  transition:  border-color 0s ease-out 0.5s, // Wait for ::before to finish before showing border
+                  width 0.25s ease-out 0.5s, // And then exanding width
+                  height 0.25s ease-out 0.75s; // And finally height
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #login-register {
+      ul {
+        list-style: none;
+        display: block;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        li {
+          display: inline-block;
+          padding: 0 10px;
+          a {
+            color: $color-blue;
+            i {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,10 +10,11 @@ Text Domain: cs
 
 /** Main **/
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900|Secular+One&subset=hebrew');
+//@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900|Secular+One&subset=hebrew');
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
 
 body, html {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans Hebrew Condensed', serif;
     font-weight: normal;
     color: $text_color;
     font-size: 16px;

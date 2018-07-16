@@ -75,6 +75,7 @@ Class CodeSpire_FrameWork {
     // Register Navigation Menus
     public function cs_menus() {
         $locations = array(
+            'header_menu-top' => __( 'Top Header Menu', 'cs' ),
             'header_menu' => __( 'Header Menu', 'cs' ),
             'footer_menu' => __( 'Footer Menu', 'cs' ),
         );
